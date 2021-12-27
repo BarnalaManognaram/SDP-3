@@ -6,10 +6,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeStayController {
-	@RequestMapping("/index")  
-	public String getAllBooks(Model model)  
+	@RequestMapping("/signup")  
+	public String signup(Model model)  
 	{
-		return "index.html";
+		return "signup.html";
+	}
+	@RequestMapping("/login")  
+	public String login(Model model)  
+	{
+		return "signup.html";
 	}
 	
 }
