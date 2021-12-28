@@ -11,10 +11,10 @@ public class HomeStayController {
 	{
 		return "signup.html";
 	}
-	@RequestMapping("/login")  
+	@RequestMapping("/")  
 	public String login(Model model)  
 	{
-		return "signup.html";
+		return "login.html";
 	}
 	
 }
