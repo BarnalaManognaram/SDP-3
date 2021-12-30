@@ -32,6 +32,31 @@ public class HomeStayController {
 		return "login.html";
 	}
 	
+	@RequestMapping("/home")  
+	public String home(Model model)  
+	{
+		return "index.html";
+	}
+	
+
+	@RequestMapping("/about")  
+	public String about(Model model)  
+	{
+		return "about.html";
+	}
+	
+	@RequestMapping("/contact")  
+	public String contact(Model model)  
+	{
+		return "contact.html";
+	}
+	
+	@RequestMapping("/tours")  
+	public String tours(Model model)  
+	{
+		return "tours.html";
+	}
+	
 	
 }
 
